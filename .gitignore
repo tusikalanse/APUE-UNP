@@ -66,4 +66,4 @@
 ### other ###
 *.zip
 */.vscode*
-*/.DS_store
+*DS_Store*
