@@ -1,16 +1,10 @@
-/*
- * @Description: input from stdin and output to stdout 
- * @Version: 2.0
- * @Autor: tusikalanse
- * @Date: 2014-03-20 09:38:24
- * @LastEditors: tusikalanse
- * @LastEditTime: 2021-09-14 08:05:40
- */
 #include "apue.h"
 
 #define	BUFFSIZE	4096
 
-int main(void) {
+int
+main(void)
+{
 	int		n;
 	char	buf[BUFFSIZE];
 

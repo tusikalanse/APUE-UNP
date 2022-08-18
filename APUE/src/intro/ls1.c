@@ -1,15 +1,9 @@
-/*
- * @Description: ls command
- * @Version: 2.0
- * @Autor: tusikalanse
- * @Date: 2014-03-20 09:38:24
- * @LastEditors: tusikalanse
- * @LastEditTime: 2021-09-14 08:20:00
- */
 #include "apue.h"
 #include <dirent.h>
 
-int main(int argc, char *argv[]) {
+int
+main(int argc, char *argv[])
+{
 	DIR				*dp;
 	struct dirent	*dirp;
 

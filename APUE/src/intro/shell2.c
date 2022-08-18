@@ -1,17 +1,11 @@
-/*
- * @Description: shell catch SIGINT
- * @Version: 2.0
- * @Autor: tusikalanse
- * @Date: 2014-03-20 09:38:24
- * @LastEditors: tusikalanse
- * @LastEditTime: 2021-09-14 08:12:33
- */
 #include "apue.h"
 #include <sys/wait.h>
 
 static void	sig_int(int);		/* our signal-catching function */
 
-int main(void) {
+int
+main(void)
+{
 	char	buf[MAXLINE];	/* from apue.h */
 	pid_t	pid;
 	int		status;

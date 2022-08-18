@@ -2,6 +2,9 @@
 !/**/
 !*.*
 
+!APUE/src/*
+!Makefile
+
 ### c & cpp ###
 # Prerequisites
 *.d
@@ -52,7 +55,6 @@
 */CMakeFiles
 */CMake*
 */cmake*
-
 
 ### java ###
 *.class
